@@ -119,8 +119,4 @@ class puppet-pd-hadoop {
     require    => File['hdfs-site-xml','core-site-xml','hadoop-env-sh','mapred-site-xml']
   }
 
-  notify { "generate ssh keys":
-    message  => "!!! ------- remember to configure passwordless ssh ---------- !!!",
-    subscribe => Exec["format-hdfs"]
-  }
 }
