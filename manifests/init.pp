@@ -1,3 +1,8 @@
+# enable remote login in mac sharing prefs
+# ssh-keygen -t rsa
+# add ~/.ssh/id_rsa.pub to ~/.ssh/authorized_keys
+# cd /hadoop-pd/hadoop-0.20.2/bin && sh start-all.sh
+
 class puppet-pd-hadoop {
 
   $user_name = "${::boxen_user}"
