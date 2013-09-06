@@ -1,3 +1,4 @@
+# http://archive.apache.org/dist/hadoop/common/
 # enable remote login in mac sharing prefs
 # ssh-keygen -t rsa
 # add ~/.ssh/id_rsa.pub to ~/.ssh/authorized_keys
